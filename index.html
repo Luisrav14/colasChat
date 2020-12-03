@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBVA México | Banca en Línea</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <source src="js/app.js" type="">
+</head>
+<body>
+
+  <header class="container1">
+      <figure class="logo">
+          <img src="img/LogoCD.svg" alt="Logo">
+      </figure>
+      <nav>
+          <a href="public/form_chat.html" target="_blank" class="item-options">Chat</a>
+          <a href="public/espera.html" target="_blank" class="item-options">Ayuda</a>
+          <a href="#" class="item-options">Contacto</a>
+      </nav>
+  </header>
+  
+    <div class="banner">
+      <h1>BBVA Bancomer</h1>
+    </div>
+
+    <div>
+        <button onclick="openChat()" class="btn openChat" enable>Abrir Chat atencion al cliente</button>               
+    </div>
+    
+</body>
+
+<script>
+    function openChat() {
+        window.open('public/form_chat.html', "Chat de Ayuda", "menubar=1,resizable=0,width=470,height=610");
+    }
+</script>
+
+
+</html>

@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    padding: 5rem 3rem;
+    text-align: center;
+    background: url("../img/fondo.jpg");
+    background-size: auto;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    color: #f1f1f1;
+    text-align: left;
+    font-size: 3em;
+}
+
+.container1 {
+    width: 100%;
+    height: 60px;
+    background: #13549c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.openChat {
+    margin: 2em 10em;
+}
+
+.logo {
+    width: 40px;
+}
+
+.logo img {
+    width: 200%;
+}
+
+.logo2 {
+    width: 50px;
+    margin: auto;
+}
+
+.logo2 img {
+    width: 200%;
+}
+
+.item-options {
+    color: #f1f1f1;
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+.item-options:hover {
+    font-weight: bold;
+}
+
+.item-options:active {
+    color: #13549c;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    width: 70%;
+    text-align: justify;
+}
+
+.formulario {
+    display: grid;
+    margin: 2em 20%;
+}
+
+.btn {
+    background-color: #13549c !important;
+    color: white !important;
+}
+
+.btn:hover {
+    background-color: #13539ce0 !important;
+}
+
+.btn:active {
+    background-color: white !important;
+    color: #13549c;
+}
+
+#countdown {
+    font-size: 50px;
+    color: #434343;
+}
+
+.alert {
+    margin: 0.9em 3em;
+    z-index: -1;
+}
+
+.loader {
+    border: 0.5em solid #cccccc;
+    border-top: 0.5em solid #13549c;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    animation: spin 1.5s linear infinite;
+    margin: 2em auto;    
+}
+
+.load-container {
+    text-align: center;
+    margin: 2em 30%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
